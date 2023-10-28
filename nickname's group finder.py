@@ -1,7 +1,7 @@
 import requests
-import sleep
+import time
 
 r = requests.get('https://YouTube.com')
 
 print(r)
-time.sleep(1000000)
+time.sleep(600)
