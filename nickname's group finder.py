@@ -2,17 +2,16 @@ import requests
 import time
 print("script has been started, sending request")
 
-req = requests.get('https://www.roblox.com/groups/14770396/')
-reqtext = req.text
-text = reqtext.find("404")
+r = requests.get('https://www.roblox.com/groups/14770396/')
+a = r.text
+b = a.find("404")
 found = str("Error")
-print(text)
+print(b)
 # this is the part where it checks
-if text : 23703
+if b : 23703
 found = [True]
 
 
 
 print(found)
 time.sleep(5)
-exit()
