@@ -2,14 +2,14 @@ import requests
 import time
 print("script has been started, sending request")
 
-r = requests.get('https://www.roblox.com/groups/14770396/')
+r = requests.get('https://youtube.com')
 a = r.text
-b = a.find("404")
+b = a.find("sadasdasdfasdasdasdsad adfafsafdsfsgdfsfsdf")
 found = str("Error")
 print(b)
 # this is the part where it checks
-if b : 23703
-found = [True]
+if b : found = True
+else : found = False
 
 
 
